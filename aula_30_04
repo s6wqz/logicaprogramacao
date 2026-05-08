@@ -13,8 +13,7 @@ print("1 - As 4 operações")
 print("2 - Média de 3 valores")
 print("3 - Fórmula de Bhaskara")
 print ()
-opcao = int (input("Digite a opção: "))
-match opcao :
+match opção:
     case 1:
         first_num = float(input(Digite))
 
